@@ -33,6 +33,7 @@ TestResults/
 # Logs
 Logs/
 *.log
+*.txt
 *.log.*
 
 # Configuration files
