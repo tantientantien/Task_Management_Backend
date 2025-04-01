@@ -83,15 +83,6 @@ public static class TaskItemEndpoint
             return Results.NoContent();
         });
 
-        // Get all users
-        group.MapGet("/getuser", async (UserManagement userManagement) =>
-        {
-            var users = await userManagement.GetAllUsersAsync();
-            return users is null || !users.Any()
-                ? Results.NotFound()
-                : Results.Ok(users);
-        });
-
         return group;
     }
 }
