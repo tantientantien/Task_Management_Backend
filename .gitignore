@@ -1,0 +1,57 @@
+# .NET Core
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.sln.iml
+*.cache
+*.csproj.user
+*.pdb
+*.dll
+*.exe
+*.dbmdl
+*.jfm
+*.swp
+*.swo
+*.vs/
+*.vscode/
+*.idea/
+[Bb]in/
+[Oo]bj/
+
+# NuGet
+*.nupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Test results
+TestResults/
+*.trx
+*.xml
+
+# Logs
+Logs/
+*.log
+*.log.*
+
+# Configuration files
+appsettings.*.json
+appsettings.json  
+secrets.json
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+*.temp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+
+node_modules/       
+.dart_tool/         
+build/              
+clerk-secrets.json
